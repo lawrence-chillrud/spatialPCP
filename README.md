@@ -3,9 +3,9 @@
 `spatialPCP` is a repository for the development of... Spatial PCP. And associated datasets, experiments, functions, etc.
 
 Table of Contents:
-1. [Software Requirements](#software-requirements)
-2. [Repository Contents](#repository-contents)
-3. [R and RStudio resources](#r-and-rstudio-resources)
+1. [Software Requirements](#1-software-requirements)
+2. [Repository Contents](#2-repository-contents)
+3. [R and RStudio resources](#3-r-and-rstudio-resources)
 
 ## 1. Software requirements
 
