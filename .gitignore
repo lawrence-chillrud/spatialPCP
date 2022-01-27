@@ -40,3 +40,7 @@ vignettes/*.pdf
 
 # pesky macOS files
 *.DS_Store
+
+# figures folder to prevent .git folder blowing up
+# commit ignored files with 'git add -f [filename]'
+figures/*
