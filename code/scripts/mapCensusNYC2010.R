@@ -26,6 +26,7 @@ nyc.shp <- readOGR(dsn = here::here("data", "shapefilesNYC2010"))
 
 # 1b. Convert shapefile to adjacency matrix & save
 adj_mat <- make_adjacency_mat(nyc.shp, names = "BoroCT2010", save_as = here::here("data", "shapefilesNYC2010", "adjacencyMatrix.rds"))
+R.matlab::writeMat(adj_mat = adj_mat, con = here::here("data", "shapefilesNYC2010", "adjacencyMatrix.mat"))
 
 #---------------------------#
 #### 2. READ CENSUS DATA ####
