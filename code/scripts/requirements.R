@@ -6,8 +6,10 @@
 if (!("pacman" %in% installed.packages()[, "Package"])) install.packages("pacman")
 
 # 1. install/load all necessary packages for spatialPCP:
-pacman::p_load("ggfortify",
+pacman::p_load("foreach",
+               "ggfortify",
                "here",
+               "iterators",
                "kableExtra",
                "rgdal",
                "R.matlab",
